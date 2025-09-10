@@ -1,0 +1,230 @@
+{
+  "SportsLotteries": [
+    {
+      "Code": "BRZ",
+      "Reward": 5
+    },
+    {
+      "Code": "CKV",
+      "Reward": 10
+    },
+    {
+      "Code": "HLT",
+      "Reward": 15
+    },
+    {
+      "Code": "EFQ",
+      "Reward": 20
+    },
+    {
+      "Code": "CMO",
+      "Reward": 25
+    },
+    {
+      "Code": "ELU",
+      "Reward": 30
+    },
+    {
+      "Code": "IKN",
+      "Reward": 40
+    },
+    {
+      "Code": "GIK",
+      "Reward": 50
+    },
+    {
+      "Code": "LSV",
+      "Reward": 60
+    },
+    {
+      "Code": "DJZ",
+      "Reward": 80
+    },
+    {
+      "Code": "DPS",
+      "Reward": 90
+    },
+    {
+      "Code": "FMR",
+      "Reward": 100
+    },
+    {
+      "Code": "0SY",
+      "Reward": 150
+    },
+    {
+      "Code": "PQR",
+      "Reward": 180
+    },
+    {
+      "Code": "JNS",
+      "Reward": 200
+    },
+    {
+      "Code": "BCN",
+      "Reward": 250
+    },
+    {
+      "Code": "IJN",
+      "Reward": 300
+    },
+    {
+      "Code": "ENX",
+      "Reward": 400
+    },
+    {
+      "Code": "GXY",
+      "Reward": 450
+    },
+    {
+      "Code": "HQU",
+      "Reward": 500
+    },
+    {
+      "Code": "EMO",
+      "Reward": 600
+    },
+    {
+      "Code": "AGP",
+      "Reward": 700
+    },
+    {
+      "Code": "AHU",
+      "Reward": 800
+    },
+    {
+      "Code": "AOY",
+      "Reward": 1000
+    },
+    {
+      "Code": "BKW",
+      "Reward": 1200
+    },
+    {
+      "Code": "CEH",
+      "Reward": 1600
+    },
+    {
+      "Code": "KMT",
+      "Reward": 2000
+    },
+    {
+      "Code": "BLT",
+      "Reward": 3000
+    },
+    {
+      "Code": "EMZ",
+      "Reward": 4000
+    }
+  ],
+  "WelfareLotteries": [
+    {
+      "Code": "CTW",
+      "Reward": 5
+    },
+    {
+      "Code": "KSX",
+      "Reward": 10
+    },
+    {
+      "Code": "DPT",
+      "Reward": 15
+    },
+    {
+      "Code": "ARS",
+      "Reward": 20
+    },
+    {
+      "Code": "DKO",
+      "Reward": 25
+    },
+    {
+      "Code": "BHJ",
+      "Reward": 30
+    },
+    {
+      "Code": "CMN",
+      "Reward": 35
+    },
+    {
+      "Code": "CPS",
+      "Reward": 40
+    },
+    {
+      "Code": "GIN",
+      "Reward": 45
+    },
+    {
+      "Code": "CYZ",
+      "Reward": 50
+    },
+    {
+      "Code": "DRV",
+      "Reward": 60
+    },
+    {
+      "Code": "FQW",
+      "Reward": 70
+    },
+    {
+      "Code": "CLO",
+      "Reward": 80
+    },
+    {
+      "Code": "ANO",
+      "Reward": 90
+    },
+    {
+      "Code": "ERW",
+      "Reward": 100
+    },
+    {
+      "Code": "JPZ",
+      "Reward": 180
+    },
+    {
+      "Code": "ALM",
+      "Reward": 200
+    },
+    {
+      "Code": "BQS",
+      "Reward": 300
+    },
+    {
+      "Code": "AFG",
+      "Reward": 400
+    },
+    {
+      "Code": "GKL",
+      "Reward": 450
+    },
+    {
+      "Code": "DSW",
+      "Reward": 500
+    },
+    {
+      "Code": "BPR",
+      "Reward": 600
+    },
+    {
+      "Code": "GPW",
+      "Reward": 800
+    },
+    {
+      "Code": "AJK",
+      "Reward": 900
+    },
+    {
+      "Code": "DQU",
+      "Reward": 1000
+    },
+    {
+      "Code": "EJO",
+      "Reward": 1500
+    },
+    {
+      "Code": "BTV",
+      "Reward": 2000
+    }
+  ]
+}

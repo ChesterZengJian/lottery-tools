@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="LotteryTools.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:LotteryTools"
+    xmlns:views="clr-namespace:LotteryTools.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="LotteryTools">
+
+    <TabBar>
+        <Tab Title="彩票代码">
+            <ShellContent Title="体彩代码" ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
+            <ShellContent Title="福彩代码" ContentTemplate="{DataTemplate views:WelfareLotteryCodePage}" Route="WelfareLotteryCodePage" />
+        </Tab>
+
+        <Tab Title="关于" Icon="{OnPlatform 'icon_about.png'}">
+            <ShellContent ContentTemplate="{DataTemplate views:AboutPage}"  />
+        </Tab>
+    </TabBar>
+
+</Shell>

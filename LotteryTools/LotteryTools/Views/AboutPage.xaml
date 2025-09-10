@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:LotteryTools.ViewModels"
+             x:Class="LotteryTools.Views.AboutPage"
+             x:DataType="viewModels:AboutViewModel">
+    <ContentPage.BindingContext>
+        <viewModels:AboutViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid RowDefinitions="100,100, *" Grid.ColumnDefinitions="*,*"  Padding="10,25">
+        <Image Grid.Row="0" Grid.ColumnSpan="2" Source="diglett.png"
+                   SemanticProperties.Description="diglett"
+                   WidthRequest="125" HeightRequest="125" 
+               />
+
+        <Label Grid.Row="1" Grid.Column="0" FontSize="22" FontAttributes="Bold" Text="{Binding Title}" VerticalOptions="Center" HorizontalOptions="End" />
+        <Label Grid.Row="1" Grid.Column="1" FontSize="22" Text="{Binding Version}" VerticalOptions="Center" HorizontalOptions="Start" Margin="5" />
+
+        <Label Grid.Row="2" Grid.ColumnSpan="2" FontSize="20" HorizontalOptions="Center" VerticalOptions="Start" Text="{Binding Message}" />
+    </Grid>
+
+</ContentPage>
