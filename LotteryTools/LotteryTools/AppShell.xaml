@@ -9,7 +9,7 @@
     Title="LotteryTools">
 
     <TabBar>
-        <Tab Title="彩票代码">
+        <Tab Title="彩票代码" Icon="{OnPlatform 'icon_home.png'}">
             <ShellContent Title="体彩代码" ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
             <ShellContent Title="福彩代码" ContentTemplate="{DataTemplate views:WelfareLotteryCodePage}" Route="WelfareLotteryCodePage" />
         </Tab>
